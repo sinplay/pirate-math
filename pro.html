@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login Page</title>
+    <link href="pro.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body">
+    <div class="header">
+
+        <center>Login</center>
+
+    </div>
+
+    <div id="trafficDetail">
+        <div class="inputGroup">
+            <form id="reportForm" style="font-size: 50px">
+                <center>
+                    Username: 
+                    <input id="Username" class="inputUsername" name="Username" type="text">
+                    <br />
+                    Password :   
+                    <input id="pass" class="inputUsername" name="password" type="text">
+                    <br />
+                    <br />
+                    <input class="butt" v-on:click="add" type="button" id="reportInfo" value="Login" >
+                </center>
+            </form>
+        </div>
+        
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script src="pro.js"></script>
+</body>
+
+</html>
